@@ -1,3 +1,11 @@
+dbus (1.16.2-2deepin1) unstable; urgency=medium
+
+  * Port deepin-specific patches from master branch:  - 0001-feat-usec-
+    ac-dbus-control.patch: D-Bus interface management - 0002-feat-add-
+    whitelist-for-limit.patch: add whitelist for limit
+
+ -- lichenggang <lichenggang@uniontech.com>  Tue, 23 Jun 2026 21:22:08 +0800
+
 dbus (1.16.2-2) unstable; urgency=medium
 
   * Pass fewer options to adduser (Closes: #1099086)
