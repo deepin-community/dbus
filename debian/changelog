@@ -1,3 +1,20 @@
+dbus (1.16.2-2deepin3) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-120749 (medium) - bus: Give bus-generated
+    messages a serial number before they are sent   Upstream:
+    https://gitlab.freedesktop.org/dbus/dbus/-
+    /commit/b8063a48a9255e1096e41566f2f7a63cc5782d03,https://gitlab.free
+    desktop.org/dbus/dbus/-
+    /commit/fe055d3c8bf401310b3fc50bba1f447cab6716a5,https://gitlab.free
+    desktop.org/dbus/dbus/-
+    /commit/a752b11241cb83be96981eb226f114ed16d7240a,https://gitlab.free
+    desktop.org/dbus/dbus/-
+    /commit/20c9f78aa53e02c8a51dd0ed9416bd4e040c6af5,https://gitlab.free
+    desktop.org/dbus/dbus/-
+    /commit/10a4898950d1d58bfa167addfb01dfa1f925ea02
+
+ -- deepin-ci-robot <packages@deepin.org>  Fri, 13 Nov 2026 12:06:46 +0800
+
 dbus (1.16.2-2deepin2) unstable; urgency=medium
 
   * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
