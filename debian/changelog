@@ -1,3 +1,12 @@
+dbus (1.16.2-2deepin4) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-128987 (unknown) - dbus-transport-socket: Stop
+    writing after EPIPE   Upstream:
+    https://gitlab.freedesktop.org/dbus/dbus/-
+    /commit/1005a7c9786e886c9b243904950a6ba2a1be22fb,https://gitlab.freedesktop.org/dbus/dbus/-/commit/69f9ddc5d77f3d39a4fa3eca1e0ad9fc39e3c9e9
+
+ -- deepin-ci-robot <packages@deepin.org>  Mon, 24 Nov 2026 16:40:00 +0800
+
 dbus (1.16.2-2deepin3) unstable; urgency=medium
 
   * fix(cve): CVE-2026-128886 (medium) - dbus-nonce: Avoid stalling
@@ -8,6 +17,7 @@ dbus (1.16.2-2deepin3) unstable; urgency=medium
     dbus/commit/7d2e7b133d02c8eeb39b0d169f788a92a1204c99
 
  -- deepin-ci-robot <packages@deepin.org>  Mon, 16 Nov 2026 18:06:54 +0800
+
 
 dbus (1.16.2-2deepin2) unstable; urgency=medium
 
