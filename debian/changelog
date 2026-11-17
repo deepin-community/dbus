@@ -1,3 +1,14 @@
+dbus (1.16.2-2deepin3) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-128886 (medium) - dbus-nonce: Avoid stalling
+    during nonce-tcp preauth   Upstream: https://github.com/top-
+    master/lib-
+    dbus/commit/e44bdeb6242fb91ee5809d0852dcd351e80a63c5,https://github.
+    com/top-master/lib-
+    dbus/commit/7d2e7b133d02c8eeb39b0d169f788a92a1204c99
+
+ -- deepin-ci-robot <packages@deepin.org>  Mon, 16 Nov 2026 18:06:54 +0800
+
 dbus (1.16.2-2deepin2) unstable; urgency=medium
 
   * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
